@@ -11,7 +11,6 @@ body {
 }
 
 /*welcome page*/
-
 section:first-child {
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
@@ -43,20 +42,17 @@ section:first-child h2 {
 }
 
 /*first project page*/
-
 section:nth-of-type(2) article:first-child {
     height: 100vh;
     background: url(/assets/css/img/portfolio2.jpg) center/cover no-repeat;
 }
 
 /*dark overlay*/
-
 section:nth-of-type(2) article:nth-child(2n+1) div:first-child {
     background-color: rgba(29, 29, 29, 0.8);
 }
 
 /* all projects sections*/
-
 section:nth-of-type(2) article div:first-child {
     height: 100vh;
     color: white;
@@ -103,20 +99,21 @@ section:nth-of-type(2) article h1 {
     opacity: 0.5;
 }
 
-section:nth-of-type(2) article:first-child a:hover {
+section:nth-of-type(2) article:first-child a:hover{
     background: white;
     color: black;
 }
+section:nth-of-type(2) article a:hover~h1{
+    opacity: 1;
+}
 
 /*second project*/
-
 section:nth-of-type(2) article:nth-child(2) {
     height: 100vh;
     background: url(/assets/css/img/portfolio3.png) center/cover no-repeat;
 }
 
 /*every second*/
-
 section:nth-of-type(2) article:nth-child(2n) div:first-child {
     height: 100vh;
     color: black;
@@ -136,7 +133,6 @@ section:nth-of-type(2) article:nth-child(2) a:hover {
 }
 
 /*third project*/
-
 section:nth-of-type(2) article:nth-child(3) {
     height: 100vh;
     background: url(/assets/css/img/portfolio4.jpg) center/cover no-repeat;
@@ -153,7 +149,6 @@ section:nth-of-type(2) article:nth-child(3) a:hover {
 }
 
 /*4th project*/
-
 section:nth-of-type(2) article:nth-child(4) {
     height: 100vh;
     background: url(/assets/css/img/portfolio5.png) center/cover no-repeat;
@@ -170,7 +165,6 @@ section:nth-of-type(2) article:nth-child(4) a:hover {
 }
 
 /*email page*/
-
 section:nth-of-type(3) {
     background-color: black;
     color: white;
@@ -224,7 +218,6 @@ section:nth-of-type(4) h1 a:hover {
 }
 
 /*heartbeat*/
-
 section:nth-of-type(4) h6 {
     font-size: 4em;
     animation-name: beat;
