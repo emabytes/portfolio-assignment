@@ -44,7 +44,7 @@ section:first-child h2 {
 /*first project page*/
 section:nth-of-type(2) article:first-child {
     height: 100vh;
-    background: url(/assets/css/img/portfolio2.jpg) center/cover no-repeat;
+    background: url(../img/portfolio2.jpg) center/cover no-repeat;
 }
 
 /*dark overlay*/
@@ -110,7 +110,7 @@ section:nth-of-type(2) article a:hover~h1{
 /*second project*/
 section:nth-of-type(2) article:nth-child(2) {
     height: 100vh;
-    background: url(/assets/css/img/portfolio3.png) center/cover no-repeat;
+    background: url(../img/portfolio3.png) center/cover no-repeat;
 }
 
 /*every second*/
@@ -135,7 +135,7 @@ section:nth-of-type(2) article:nth-child(2) a:hover {
 /*third project*/
 section:nth-of-type(2) article:nth-child(3) {
     height: 100vh;
-    background: url(/assets/css/img/portfolio4.jpg) center/cover no-repeat;
+    background: url(../img/portfolio4.jpg) center/cover no-repeat;
 }
 
 section:nth-of-type(2) article:nth-child(3) a {
@@ -151,7 +151,7 @@ section:nth-of-type(2) article:nth-child(3) a:hover {
 /*4th project*/
 section:nth-of-type(2) article:nth-child(4) {
     height: 100vh;
-    background: url(/assets/css/img/portfolio5.png) center/cover no-repeat;
+    background: url(../img/portfolio5.png) center/cover no-repeat;
 }
 
 section:nth-of-type(2) article:nth-child(4) a {
